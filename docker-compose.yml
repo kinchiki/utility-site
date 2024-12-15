@@ -1,0 +1,17 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: ./docker/remix.dockerfile
+    working_dir: /app
+    ports:
+      - 3000:3000
+      - 6006:6006
+    # command: bash -c "yarn install"
+                      # yarn run dev"
+    volumes:
+      - type: bind
+        source: .
+        target: /app
+    stdin_open: true
+    tty: true
