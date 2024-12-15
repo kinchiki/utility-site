@@ -1,0 +1,16 @@
+{
+  "name": "app",
+  "packageManager": "yarn@4.5.2",
+  "dependencies": {
+    "@remix-run/node": "^2.15.1",
+    "@remix-run/react": "^2.15.1",
+    "@remix-run/serve": "^2.15.1",
+    "isbot": "4",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@remix-run/dev": "^2.15.1",
+    "vite": "^5.1.0"
+  }
+}
