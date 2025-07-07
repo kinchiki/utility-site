@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "name": "app",
   "packageManager": "yarn@4.5.2",
   "dependencies": {
